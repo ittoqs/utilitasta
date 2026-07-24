@@ -15,8 +15,8 @@ export const HashGeneratorComponent = () => {
     if (!input) return;
     const result: Record<string, string> = {};
     try {
-      result['sha256'] = generateHash('sha256', input, 'hex');
-      result['sha512'] = generateHash('sha512', input, 'hex');
+      result['sha256'] = await generateHash('sha256', input, 'hex');
+      result['sha512'] = await generateHash('sha512', input, 'hex');
     } catch(e) {}
     setHashes(result);
   };
@@ -180,7 +180,7 @@ export const LoremIpsumGeneratorComponent = () => {
   const [copied, setCopied] = useState(false);
 
   const generate = () => {
-    setOutput(generateLoremIpsum(count, unit));
+    setOutput(generateLoremIpsum({ inputAmount: count, generationUnit: unit }));
   };
 
   const handleCopy = () => {
