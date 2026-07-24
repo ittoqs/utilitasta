@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { calculateContrast, getContrastDescription, normalizeHexInput } from '../features/wcag-color-contrast';
 import { pxToRem, remToPx } from '../features/css-units-converter';
-import { Play, Upload, Copy, Check, Download, Trash2 } from 'lucide-react';
+import { Upload, Copy, Check, Download, Trash2 } from 'lucide-react';
 
 export const WcagColorContrastComponent = () => {
   const [fg, setFg] = useState('#000000');
