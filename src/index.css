@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-main: #faf9f6;
+    --text-main: #2d2d2d;
+    --text-muted: #666666;
+    --card-bg: #ffffff;
+    --card-border: #e5e7eb;
+    --card-border-hover: #e95420;
+    --btn-bg: #e95420;
+    --btn-text: #ffffff;
+    --btn-hover: #dd4814;
+    --header-border: #e5e7eb;
+  }
+
+  html.dark {
+    --bg-main: #0a0a0a;
+    --text-main: #f3f4f6;
+    --text-muted: #9ca3af;
+    --card-bg: #171717;
+    --card-border: #262626;
+    --card-border-hover: #e95420;
+    --btn-bg: #e95420;
+    --btn-text: #ffffff;
+    --btn-hover: #dd4814;
+    --header-border: #262626;
+  }
+}
+
+@layer utilities {
+  .bg-card {
+    background-color: var(--card-bg);
+    border-color: var(--card-border);
+  }
+  .bg-card:hover {
+    border-color: var(--card-border-hover);
+  }
+  .text-muted {
+    color: var(--text-muted);
+  }
+  .btn-action {
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+  }
+  .btn-action:hover {
+    background-color: var(--btn-hover);
+    color: #ffffff;
+  }
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: 'Ubuntu Mono', monospace;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

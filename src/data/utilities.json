@@ -1,0 +1,182 @@
+[
+  {
+    "description": "Konversi data CSV ke format JSON dengan mudah. Cara tercepat untuk mengubah data tabel menjadi format JSON untuk API dan pemrosesan data.",
+    "path": "/utilities/csv-to-json",
+    "title": "CSV ke JSON"
+  },
+  {
+    "description": "Ubah nilai yang dipisahkan tab (TSV) menjadi JSON terstruktur. Sangat cocok untuk ekspor spreadsheet, dump basis data, dan himpunan data ilmiah.",
+    "path": "/utilities/tsv-to-json",
+    "title": "TSV ke JSON"
+  },
+  {
+    "description": "Encode dan decode data Base64 dengan mudah agar Anda dapat mentransmisikan data secara aman atau membaca string terenkripsi Base64.",
+    "path": "/utilities/base-64-encoder",
+    "title": "Enkode/Dekode Base64"
+  },
+  {
+    "description": "Format dan percantik data JSON Anda untuk keterbacaan dan debugging yang lebih baik. Visualisasikan struktur JSON dengan cepat.",
+    "path": "/utilities/json-formatter",
+    "title": "Format JSON"
+  },
+  {
+    "description": "Urai string terdeserialisasi dan tampilkan output yang mudah dibaca dalam format print_r() atau var_dump(). Sangat berguna untuk basis data WordPress.",
+    "path": "/utilities/unserializer",
+    "title": "PHP Unserializer"
+  },
+  {
+    "description": "Validasi baris JSON secara instan, temukan baris yang rusak berdasarkan nomor baris, dan konversikan rekaman valid ke array JSON yang bersih.",
+    "path": "/utilities/jsonl-validator",
+    "title": "Validasi JSONL"
+  },
+  {
+    "description": "Konversi YAML ke JSON dengan mudah. Sangat membantu saat Anda bekerja dengan berkas konfigurasi dan perlu beralih antar format.",
+    "path": "/utilities/yaml-to-json",
+    "title": "YAML ke JSON"
+  },
+  {
+    "description": "Ubah URL ke format aman menggunakan encode URL atau kembalikan string ter-encode ke format aslinya.",
+    "path": "/utilities/url-encoder",
+    "title": "Enkode/Dekode URL"
+  },
+  {
+    "description": "Tempelkan timestamp Unix dan dapatkan tanggal yang mudah dibaca manusia. Sangat cocok untuk pengembang yang bekerja dengan data berbasis waktu.",
+    "path": "/utilities/timestamp-to-date",
+    "title": "Konversi Timestamp ke Tanggal"
+  },
+  {
+    "description": "Ubah parameter query URL menjadi objek JSON terstruktur, mempermudah proses pemrosesan dan manipulasi data URL pada aplikasi web.",
+    "path": "/utilities/query-params-to-json",
+    "title": "Parameter Query ke JSON"
+  },
+  {
+    "description": "Konversi warna HEX ke RGB dan hasilkan cuplikan kode CSS untuk Web, Swift, dan Android dengan alat konversi warna yang mudah digunakan.",
+    "path": "/utilities/hex-to-rgb",
+    "title": "Konversi HEX ke RGB"
+  },
+  {
+    "description": "Ubah variabel berkas .env Anda dengan cepat dan mudah ke dalam format yang dibutuhkan untuk berkas netlify.toml.",
+    "path": "/utilities/env-to-netlify-toml",
+    "title": "Konversi .env ke netlify.toml"
+  },
+  {
+    "description": "Konversi gambar ke string Base64 secara instan. Sematkan gambar langsung ke dalam kode Anda secara cepat dan ramah pengembang.",
+    "path": "/utilities/image-to-base64",
+    "title": "Konversi Gambar ke Base64"
+  },
+  {
+    "description": "Konversi string Base64 menjadi gambar secara instan. Pratinjau data gambar berformat Base64 langsung di peramban Anda.",
+    "path": "/utilities/base64-to-image",
+    "title": "Konversi Base64 ke Gambar"
+  },
+  {
+    "description": "Ubah data JSON Anda menjadi format CSV yang rapi. Cukup tempelkan JSON Anda dan dapatkan hasilnya secara langsung.",
+    "path": "/utilities/json-to-csv",
+    "title": "JSON ke CSV"
+  },
+  {
+    "description": "Ubah data JSON menjadi format TSV. Cukup tempelkan JSON Anda dan dapatkan output teks yang dipisahkan tab secara instan.",
+    "path": "/utilities/json-to-tsv",
+    "title": "JSON ke TSV"
+  },
+  {
+    "description": "Tampilkan dan analisis berkas HAR secara daring dengan mudah. Perbaiki masalah lalu lintas web dan kinerja jaringan.",
+    "path": "/utilities/har-file-viewer",
+    "title": "Penampil File HAR"
+  },
+  {
+    "description": "Konversi JSON ke YAML dengan mudah. Sangat cocok saat Anda mengelola berkas konfigurasi dan perlu beralih antar format.",
+    "path": "/utilities/json-to-yaml",
+    "title": "JSON ke YAML"
+  },
+  {
+    "description": "Konversi angka antar basis yang berbeda (biner, oktal, desimal, heksadesimal) secara mudah dengan alat konversi basis angka.",
+    "path": "/utilities/number-base-changer",
+    "title": "Pengubah Basis Angka"
+  },
+  {
+    "description": "Ubah gaya CSS Anda menjadi gaya inline secara langsung pada HTML. Meningkatkan kompatibilitas email dan mengurangi ketergantungan berkas eksternal.",
+    "path": "/utilities/css-inliner-for-email",
+    "title": "CSS Inliner untuk Email"
+  },
+  {
+    "description": "Uji dan perbaiki ekspresi reguler (Regex) Anda secara real-time. Dapatkan umpan balik cepat untuk pencocokan pola teks.",
+    "path": "/utilities/regex-tester",
+    "title": "Penguji Regex"
+  },
+  {
+    "description": "Konversi px ke rem dengan mudah. Ubah nilai piksel ke unit rem secara cepat untuk skalabilitas dan aksesibilitas web yang lebih baik.",
+    "path": "/utilities/css-units-converter",
+    "title": "Konversi Satuan CSS"
+  },
+  {
+    "description": "Ubah ukuran gambar dengan tetap mempertahankan rasio aspek dan pilih antara format PNG atau JPEG dengan alat praktis ini.",
+    "path": "/utilities/image-resizer",
+    "title": "Ubah Ukuran Gambar"
+  },
+  {
+    "description": "Decode token JWT dan lihat bagian header, payload, serta signature secara langsung. Sangat berguna untuk analisis dan debugging JSON Web Token.",
+    "path": "/utilities/jwt-parser",
+    "title": "Pengurai JWT"
+  },
+  {
+    "description": "Hasilkan hash aman menggunakan algoritma SHA-256, SHA-512, MD5, dan lainnya. Ideal untuk pemeriksaan integritas data dan kriptografi.",
+    "path": "/utilities/hash-generator",
+    "title": "Pembuat Hash"
+  },
+  {
+    "description": "Buat UUID acak secara instan. Berguna untuk membuat pengenal unik pada kunci basis data, ID sesi, dan aplikasi lainnya.",
+    "path": "/utilities/uuid-generator",
+    "title": "Pembuat UUID"
+  },
+  {
+    "description": "Pratinjau dan validasi kode SVG secara instan di peramban Anda. Sangat cocok untuk pengembang yang bekerja dengan grafis vektor.",
+    "path": "/utilities/svg-viewer",
+    "title": "Penampil SVG"
+  },
+  {
+    "description": "Hasilkan teks acak Lorem Ipsum untuk proyek desain Anda. Sangat berguna untuk konten placeholder dan pratinjau tata letak.",
+    "path": "/utilities/lorem-ipsum-generator",
+    "title": "Pembuat Lorem Ipsum"
+  },
+  {
+    "description": "Konversi gambar ke format WebP secara terkelompok dengan kontrol kualitas. Kurangi ukuran berkas dengan tetap mempertahankan kualitas gambar.",
+    "path": "/utilities/webp-converter",
+    "title": "Konverter WebP"
+  },
+  {
+    "description": "Minifikasi SQL dengan menghapus komentar, spasi ekstra, dan format untuk kueri yang lebih bersih dan optimal.",
+    "path": "/utilities/sql-minifier",
+    "title": "Minifikasi SQL"
+  },
+  {
+    "description": "Uji kecepatan koneksi internet Anda dengan pengukuran akurat menggunakan jaringan global Cloudflare.",
+    "path": "/utilities/internet-speed-test",
+    "title": "Uji Kecepatan Internet"
+  },
+  {
+    "description": "Hasilkan string acak yang aman secara kriptografis. Sangat cocok untuk kunci API, token, kata sandi, dan pengenal aman.",
+    "path": "/utilities/random-string-generator",
+    "title": "Pembuat String Acak"
+  },
+  {
+    "description": "Periksa rasio kontras warna untuk kepatuhan WCAG AA dan AAA. Pastikan desain Anda memenuhi standar aksesibilitas web.",
+    "path": "/utilities/wcag-color-contrast-checker",
+    "title": "Pemeriksa Kontras Warna WCAG"
+  },
+  {
+    "description": "Ubah data XML menjadi format JSON secara instan. Mempermudah pekerjaan dengan API dan aplikasi web modern.",
+    "path": "/utilities/xml-to-json",
+    "title": "XML ke JSON"
+  },
+  {
+    "description": "Lihat, cari, dan filter berkas CSV, TSV, atau LOG dengan tingkat keparahan berkorespondensi warna. Telusuri log dengan cepat.",
+    "path": "/utilities/csv-file-viewer",
+    "title": "Penampil File CSV (.csv, .tsv, .log)"
+  },
+  {
+    "description": "Hasilkan checksum SHA-256, SHA-512, dan MD5 untuk berkas, lalu verifikasi untuk memastikan berkas tidak rusak atau diubah.",
+    "path": "/utilities/file-integrity-checker",
+    "title": "Pemeriksa Integritas File"
+  }
+]
